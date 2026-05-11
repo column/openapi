@@ -4,7 +4,7 @@
 openapi: 3.1.0
 info:
     title: Column API
-    version: "1.0"
+    version: "1.1"
     contact:
         name: Column
         url: https://column.com
@@ -15281,6 +15281,10 @@ components:
                     description: The interest config ID
                     nullable: true
                     type: string
+                is_ach_creditable:
+                    description: Whether ACH credits are enabled
+                    nullable: true
+                    type: boolean
                 is_ach_debitable:
                     description: Whether ACH debits are enabled
                     nullable: true
